@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Outlet, Navigate } from 'react-router-dom'
+import { Outlet, Navigate, NavLink } from 'react-router-dom'
 
 export default class AdminTemplate extends Component {
   render() {
@@ -7,7 +7,8 @@ export default class AdminTemplate extends Component {
       return <Navigate replace to="/auth" />;
     return (
       <div>
-        <h1>Trang Quản Lí</h1>
+        <NavLink to="/" style={{color:'black', fontSize:'30px', margin: '30px 30px', fontWeight:'bold'}}>HOME</NavLink >
+        <h1 style={{margin: "20px 20px"}}>Trang Quản Trị</h1>
         <Outlet />
       </div>
     )

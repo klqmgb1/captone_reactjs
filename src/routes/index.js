@@ -41,6 +41,7 @@ const routes = [
                 element: lazy(()=> import("./../pages/HomeTemplate/LoginPage")),
                 
             },
+            
         ]
     },
     {
@@ -59,6 +60,11 @@ const routes = [
                 path : "add-movie",
                 element : lazy(()=>import("./../pages/AdminTemplate/AddMoviePage"))
             },
+            {
+                path : "add-new-user",
+                element : lazy(()=>import("./../pages/AdminTemplate/AddNewUserPage/AddNewUserPage"))
+            },
+           
             
             
         ]

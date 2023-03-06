@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 export default class LoginPage extends Component {
-  render() {
+    render() {
     return (
         <form  className='container'>
             <div className='row justify-content-center '>
@@ -27,7 +27,7 @@ export default class LoginPage extends Component {
                     <button
 
                         className='btn btn-block btn-primary mt-5'>Đăng nhập</button>
-                    <div className='text-center mt-2 font-italic'><span>Bạn không có tài khoản ? </span><Link to='/signin'>Đăng ký</Link></div>
+                    <div className='text-center mt-2 font-italic'><span>Bạn không có tài khoản ? </span><Link to='/signin'>Đăng kí</Link></div>
                 </div>
             </div>
         </form>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
+
 export default class NavbarHome extends Component {
   render() {
     return (
@@ -33,7 +34,7 @@ export default class NavbarHome extends Component {
                     </li>
                     <li style={{paddingRight: '50px'}}>
                         <button style={{borderRadius:'5px'}}>
-                            <NavLink to="/signin" style={{color:'black'}}>ĐĂNG KÍ</NavLink>
+                            <NavLink to="/auth" style={{color:'black'}}>ĐĂNG KÍ</NavLink>
                         </button>
                     </li>
                 </ul>
