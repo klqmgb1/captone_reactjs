@@ -2,6 +2,6 @@ import React from 'react'
 import "./style.css";
 export default function Loader() {
 
-  return <div className='loader'></div>
+  return <div className='loader'>123213</div>
   
 }

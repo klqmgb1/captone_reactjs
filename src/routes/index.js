@@ -8,7 +8,7 @@ const routes = [
         nested:[
             {
                 path: "",
-                element: lazy(()=>import("./../pages/HomeTemplate/HomePage"))
+                element: lazy(()=>import("../pages/HomeTemplate/HomePage"))
             },
             {
                 path: "about",
@@ -16,7 +16,8 @@ const routes = [
             },
             {
                 path: "list-movie",
-                element: lazy(()=> import("./../pages/HomeTemplate/ListMoviePage"))
+                element: lazy(()=> import("./../pages/HomeTemplate/ListMoviePage")),
+                
             },
             {
                 path: "detail/:id",
@@ -29,6 +30,16 @@ const routes = [
             {
                 path : "hooks-effect",
                 element : lazy(()=>import("./../pages/Hooks/Effect"))
+            },
+            {
+                path: "signin",
+                element: lazy(()=> import("./../pages/HomeTemplate/SignInPage")),
+                
+            },
+            {
+                path: "login",
+                element: lazy(()=> import("./../pages/HomeTemplate/LoginPage")),
+                
             },
         ]
     },

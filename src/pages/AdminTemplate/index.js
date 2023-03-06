@@ -7,7 +7,7 @@ export default class AdminTemplate extends Component {
       return <Navigate replace to="/auth" />;
     return (
       <div>
-        <h1>NavbarAdmin</h1>
+        <h1>Trang Quản Lí</h1>
         <Outlet />
       </div>
     )

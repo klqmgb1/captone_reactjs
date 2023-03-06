@@ -5,11 +5,11 @@ export default class Movie extends Component {
     const {movie} = this.props;
     return (
       <div className='col-md-3'>
-        <div className="card">
-            <img className="card-img-top" src={movie.hinhAnh} alt="" />
-            <div className="card-body">
-                <h4 className="card-title">{movie.tenPhim}</h4>
-                <Link to={`/detail/${movie.maPhim}`} className="btn btn-success">
+        <div className="card mt-2" style={{position: 'relative'}}>
+            <img className="card-img-top" style={{ height: '250px', objectFit: 'cover', objectPosition: '0% 20%' }} src={movie.hinhAnh} alt="" />
+            <div className="card-body" style={{ height: '170px' }}>
+                <h5 className="card-title">{movie.tenPhim}</h5>
+                <Link to={`/detail/${movie.maPhim}`} className="btn btn-success" style={{position: 'absolute', bottom: '20px'}}>
                     Detail
                 </Link>
             </div>

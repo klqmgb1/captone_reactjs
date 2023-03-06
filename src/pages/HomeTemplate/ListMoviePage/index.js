@@ -26,7 +26,6 @@ class ListMoviePage extends Component {
   render() {
     return (
       <div className='container'>
-        ListMoviePage
           <div className='row'>{this.RenderListMovie()}</div>
       </div>
     )

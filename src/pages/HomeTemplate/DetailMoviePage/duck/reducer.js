@@ -1,4 +1,3 @@
-// import { DETAIL_MOVIE_REQUEST, DETAIL_MOVIE_SUCCESS, DETAIL_MOVIE_FAIL } from "./types";
 import * as ActionType from "./types";
 
 const initialState = {
