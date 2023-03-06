@@ -27,18 +27,7 @@ export default class AddMoviePage extends Component {
     return (
       <div className="container mt-5">
       <table className="table">
-        <thead>
-          <tr>
-            <th>Mã Phim</th>
-            <th>Hình Ảnh</th>
-            <th>Tên Phim</th>
-            <th>Mô Tả</th>
-            <th>Hành Động</th>
-          </tr>
-        </thead>
-        <tbody>
-            <ListRender />
-        </tbody>
+          <ListRender />
       </table>
     </div>
     );
